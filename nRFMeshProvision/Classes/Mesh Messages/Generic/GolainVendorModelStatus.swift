@@ -32,7 +32,7 @@ import Foundation
 
 public struct GolainVendorModelStatus: VendorMessage {
     
-    public var opCode: UInt32 = 0x03
+    public var opCode: UInt32 = 0x0003
     
     public var encodedProto: Data
     

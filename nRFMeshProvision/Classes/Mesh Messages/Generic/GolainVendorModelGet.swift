@@ -1,7 +1,7 @@
 import Foundation
 
 public struct GolainVendorModelGet: VendorMessage {
-    public let opCode: UInt32 = 0x8201
+    public let opCode: UInt32 = 0x0001
     public static let responseType: StaticMeshMessage.Type = GolainVendorModelStatus.self as! any StaticMeshMessage.Type
 
     public var parameters: Data? {
