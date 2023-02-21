@@ -1,5 +1,5 @@
 //
-//  GolainVendorModelGetArguments.swift
+//  GolainVendorModelGet.swift
 //  nordic_nrf_mesh
 //
 //  Created by Atharv Bhadange on 16/02/23.
@@ -8,7 +8,7 @@
 import Foundation
 
 public struct GolainVendorModelGet: VendorMessage {
-    public var opCode: UInt32 = 0x1111
+    public var opCode: UInt32 
 
     public var companyIdentifier: UInt16
 
